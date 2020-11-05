@@ -1,0 +1,11 @@
+<div class="container" [ngSwitch]="dataType">
+  <div *ngSwitchCase="'list'">
+    <lib-list [list]="data"></lib-list>
+  </div>
+  <div *ngSwitchCase="'table'">
+  
+  </div>
+  <div *ngSwitchDefault>
+    <label>no</label>
+  </div>
+</div>
